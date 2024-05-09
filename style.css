@@ -25,15 +25,14 @@ body{
     max-width: 100%;
     min-height: 480px;
 }
-
-   .container p{
+.container p{
     font-size: 14px;
     line-height:20px ;
     letter-spacing: 0.3px;
      margin: 20px;
    }
 .container span{
-    font-size: 12px;
+    font-size: 20px;
 }
 .container a{
   color: #333;
@@ -166,6 +165,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    align-self: center;
     flex-direction: column;
     padding: 0 30px;
     text-align: center;
@@ -173,6 +173,7 @@ body{
     transform: translateX(0);
     transform: all 0.6s ease-in-out;
 }
+
 
 
 .toggle-left{
