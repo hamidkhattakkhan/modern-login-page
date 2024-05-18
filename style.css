@@ -6,7 +6,7 @@
     font-family: 'montserrat', sans-serif;
 }
 body{
-    background-color:#c9d6ff ;
+    background-color:#d31c16 ;
     background: linear-gradient(to right , #e2e2e2
     #c9d6ff);
     display: flex;
@@ -81,8 +81,10 @@ body{
     top: 0;
     height: 100%;
     transition: all 0.6s ease-in-out;
+    
 }
 .sign in {
+    
     left: 0;
     width: 50%;
     z-index:2;
@@ -91,10 +93,12 @@ body{
     transform: translateX(100%);
 }
 .sign-up {
-    left:0 ;
+    right: 0;
+    /* left:0;
+ 
     width: 50%;
     opacity:0 ;
-    z-index: 1;
+    z-index: 1; */
 }
 .container.container.active.sign-up{
     transform: translateX(100%);
@@ -184,6 +188,7 @@ body{
 }
 
 .toggle-right{
+    padding-left: 4%;
     right: 0;
     transform: translateX(0);
 }
